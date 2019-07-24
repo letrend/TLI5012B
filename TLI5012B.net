@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/roboy/workspace/TLI5012B/TLI5012B.sch)
-    (date "Wed 24 Jul 2019 04:53:54 PM CEST")
+    (date "Wed 24 Jul 2019 10:02:28 PM CEST")
     (tool "Eeschema 5.1.3-ffb9f22~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value TLI5012B)
-      (footprint Package_SO:SO-8_5.3x6.2mm_P1.27mm)
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
       (libsource (lib custom) (part TLI5012B) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D38797F))
