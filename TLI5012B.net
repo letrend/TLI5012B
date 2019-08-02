@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/letrend/workspace/TLI5012B/TLI5012B.sch)
-    (date "Do 25 Jul 2019 11:51:43 CEST")
+    (date "Fr 02 Aug 2019 14:26:59 CEST")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value TLI5012B)
-      (footprint Package_SO:SO-8_5.3x6.2mm_P1.27mm)
+      (footprint Package_SO:SOP-8_3.76x4.96mm_P1.27mm)
       (libsource (lib TLI5012B-rescue) (part TLI5012B-custom) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D38797F))
