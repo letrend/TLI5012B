@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/letrend/workspace/TLI5012B/TLI5012B/TLI5012B.sch)
-    (date "Do 08 Okt 2020 12:47:39 CEST")
+    (date "Do 08 Okt 2020 15:24:36 CEST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5D38797F))
     (comp (ref J1)
       (value Conn_01x05_Female)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x05_Female) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
