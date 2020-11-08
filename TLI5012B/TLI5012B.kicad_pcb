@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1)
@@ -39,8 +39,6 @@
     (zone_clearance 0.1524)
     (zone_45_only no)
     (trace_min 0.1524)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -271,6 +271,11 @@
       (net 2 GND))
     (pad 8 smd rect (at -1.905 -2.845 90) (size 0.65 1.31) (layers F.Cu F.Paste F.Mask)
       (net 4 /IFB))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical (layer F.Cu) (tedit 5F7F14A2) (tstamp 5F8B3441)
